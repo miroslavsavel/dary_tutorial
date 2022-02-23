@@ -75,3 +75,10 @@ php artisan serve
 https://stackoverflow.com/questions/41209349/requirevendor-autoload-php-failed-to-open-stream
 composer install
 //which will import your packages and create the vendor folder, along with the autoload script.
+
+# http responses in routing
+//Route that will send back an array, laravel will automatically convert an array to JSON response
+return json
+return function
+
+# creating our first page
