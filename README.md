@@ -35,5 +35,43 @@ FILE- preferences File Icons Thme / choose VS gret icons
 help - file icons
 
 # what is .env file
+enviroment setups are here
+what is redis_host?
 
+CREATOR_NAME = "Miro"
 
+return env('DB_DATABASE');
+
+.env.example - if you make changes, it is like template
+
+# composer json and lock file
+composer is dependency manager
+
+rm -rf composer.lock
+
+composer install
+composer update
+
+# composer and packagist
+adding library 
+google -> mollie api php
+
+packagist.org -> search for mollie
+copy:
+composer require mollie/mollie-api-php
+//it will pull all necessary libraries from packagist
+composer update
+
+# the vendor directory
+here is autoload files, also our laravel project is in vendor directory
+there is source code for laravel framework!!!
+
+# basic routing
+/routes/web.php
+there can be also another tye of requests than get
+
+php artisan serve
+->error vendor/autoload.php' (include_path='C:\xampp\php\PEAR') in
+https://stackoverflow.com/questions/41209349/requirevendor-autoload-php-failed-to-open-stream
+composer install
+//which will import your packages and create the vendor folder, along with the autoload script.
