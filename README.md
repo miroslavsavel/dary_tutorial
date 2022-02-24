@@ -106,3 +106,26 @@ Route::get('/users', function(){
 });
 
 # creating our first page
+creating home view
+
+# controllers
+manual way for creating controller
+app/Http/Controllers
+create file ProductsController.php
+
+<?php
+
+namespace App\Http\Controllers;
+
+class ProductsController extends Controller {
+
+}
+
+instead doing this we can use artisan to create controller for us
+
+php artisan list
+//show commands with examples
+
+php artisan make:controller ProductsController
+
+we will edit web.php to send data to controller and then to view
