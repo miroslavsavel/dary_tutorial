@@ -23,13 +23,5 @@ Route::get('/', function () {
 //and we want to use index method from class ProductsController
 //laravel 8 (new way)
 Route::get('/products', [ProductsController::class, 'index']);
-Route::get('/products/about', [ProductsController::class, 'about']);
 
-
-//Laravel 8 also new - screen syntax
-Route::get('/products', 'App\Http\Controllers\ProductsController@index');
-
-//old versions - befre Laravel 8
-//it is not working anymore 
-// Route::get('/products', 'ProductsController@index');
 

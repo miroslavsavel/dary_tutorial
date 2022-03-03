@@ -129,3 +129,16 @@ php artisan list
 php artisan make:controller ProductsController
 
 we will edit web.php to send data to controller and then to view
+
+# passing data to views
+1, option
+compact()
+inside views folder, inside product/index.blade.php
+
+2, option
+with() 
+we can pass only one parameter, but this can be solved by passing array
+
+3, option directly in the view
+
+# route parameters
