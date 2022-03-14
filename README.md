@@ -142,3 +142,6 @@ we can pass only one parameter, but this can be solved by passing array
 3, option directly in the view
 
 # route parameters
+up till now we have been doing request on the single page
+
+# named routes
