@@ -22,7 +22,7 @@ Route::get('/', function () {
 //we have endpoint /products
 //and we want to use index method from class ProductsController
 //laravel 8 (new way)
-Route::get('/products', [ProductsController::class, 'index']);
+Route::get('/products', [ProductsController::class, 'index'])->name('products');
 
 // /products = all products
 // /products/productName

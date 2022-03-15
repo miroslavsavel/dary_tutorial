@@ -145,3 +145,9 @@ we can pass only one parameter, but this can be solved by passing array
 up till now we have been doing request on the single page
 
 # named routes
+function name() assign name to the route
+
+route is global method
+<a href="{{ route('products')}}">Products</a>   in view we can then change easily URL
+
+# views
