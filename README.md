@@ -151,3 +151,13 @@ route is global method
 <a href="{{ route('products')}}">Products</a>   in view we can then change easily URL
 
 # views
+https://github.com/codewithdary/portfolio_for_beginners_html5_css3
+
+remove ProductsController
+remove view folder products
+change route in web.php to PagesController
+
+if we want add image to the page
+<img src="{{ URL('images/icon-box.jpg') }}" alt="">
+
+2:30:53 creating symbolic links
